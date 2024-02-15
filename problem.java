@@ -1,3 +1,10 @@
+/*
+ *   Print the piramaid
+ *         *
+ *        * *
+ *       * * *
+ */
+
 public class problem {
 
     public static void main(String[] args) {
@@ -35,6 +42,6 @@ public class problem {
     }
 }
 
-// *
-// * *
+//   *
+//  * *
 // * * *

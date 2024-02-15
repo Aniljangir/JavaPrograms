@@ -134,7 +134,11 @@ class TreeSample {
         return Math.max(lHeight, rHeight) + 1;
     }
 
-    static int diameter(Node root) {
+    /*
+     *  Here we iterating each node and after that caluclating height of each node
+     *  so complexity is O(n^2)
+     */
+    static int diameter(Node root) { 
         if (root == null) {
             return 0;
         }

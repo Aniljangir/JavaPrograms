@@ -1,6 +1,7 @@
+package sorting;
 /*
  *  In this while iterate find out the smallest item index and swap that into start of the array
- * ç
+ *  Time Complexity is O(n^2)
  */
 class SelectionSort {
 

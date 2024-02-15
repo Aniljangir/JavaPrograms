@@ -1,3 +1,4 @@
+package sorting;
 /*
  * Pivot and Partion
  *  in this we have to take one pivot and compare with items to arrange sort items before pivot and large after pivot

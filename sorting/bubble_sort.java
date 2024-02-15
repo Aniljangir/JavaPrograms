@@ -1,3 +1,4 @@
+package sorting;
 /*
  *   Comapre each item and shift larger item to the last
  *   Time Complexity O(logn)

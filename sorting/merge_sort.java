@@ -1,3 +1,4 @@
+package sorting;
 /*
  *  Divide array into partions untill single element in array and after that combine single array
  *  Time Complexity O(logn)

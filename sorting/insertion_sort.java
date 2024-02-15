@@ -1,5 +1,7 @@
+package sorting;
 /*
  *  in this we divide array into two partiotion sorted array and unsorted array
+ *  Time Complexity O(n^2)
  */
 public class insertion_sort {
     public static void main(String[] args) {
