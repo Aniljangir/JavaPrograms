@@ -2,6 +2,9 @@ package stack;
 
 import java.util.Stack;
 
+/*
+ * Reverse stack data
+ */
 public class StackProblem2 {
     
     public static void pushDataAtBottom(int data, Stack<Integer> s) {
@@ -15,9 +18,7 @@ public class StackProblem2 {
         s.push(top);
     }
 
-    public static void reverse(Stack<Integer> s) {
-
-        
+    public static void reverse(Stack<Integer> s) {       
         if (s.isEmpty()) {
 
             return;
@@ -25,8 +26,6 @@ public class StackProblem2 {
         int top = s.pop();
         reverse( s);
         pushDataAtBottom(top, s);
-
-        
     }
 
     public static void main(String[] args) {
